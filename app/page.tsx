@@ -53,6 +53,16 @@ export default async function Home() {
             </div>
           </div>
         </main>
+        <footer className="absolute bottom-4 w-full text-center">
+          <a 
+            href="https://beian.miit.gov.cn/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
+          >
+            浙ICP备2024119579号
+          </a>
+        </footer>
       </div>
     </div>
   )
